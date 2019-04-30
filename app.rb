@@ -149,7 +149,7 @@ puts "Ruby Command Line Calculator!"
 begin
 
  menu
- puts "If you require a further calculation press (y)"
+ puts "If you require a further calculation press (y), if not press (n)"
   repeat = gets.chomp
 
 end while repeat == "y"
